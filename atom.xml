@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://biscuit09.github.io/"/>
-  <updated>2017-02-04T03:13:34.253Z</updated>
+  <updated>2017-02-04T03:19:45.723Z</updated>
   <id>http://biscuit09.github.io/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Test</title>
+    <link href="http://biscuit09.github.io/2017/02/04/Test-0/"/>
+    <id>http://biscuit09.github.io/2017/02/04/Test-0/</id>
+    <published>2017-02-04T03:18:42.000Z</published>
+    <updated>2017-02-04T03:19:45.723Z</updated>
+    
+    <content type="html"><![CDATA[<p>#Test#<br><img src="/img/avatar.jpg" alt="avatar"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#Test#&lt;br&gt;&lt;img src=&quot;/img/avatar.jpg&quot; alt=&quot;avatar&quot;&gt;&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title></title>
