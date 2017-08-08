@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://biscuit09.github.io/"/>
-  <updated>2017-02-21T08:57:32.057Z</updated>
+  <updated>2017-08-08T09:23:50.123Z</updated>
   <id>http://biscuit09.github.io/</id>
   
   <author>
@@ -14,6 +14,41 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【转】MarkdownPad 2 在win10下出错：HTML 渲染错误(This view has crashed) 的解决办法 + MarkdownPad2.5 注册码</title>
+    <link href="http://biscuit09.github.io/2017/08/08/%E3%80%90%E8%BD%AC%E3%80%91MarkdownPad%202%20%E5%9C%A8win10%E4%B8%8B%E5%87%BA%E9%94%99%EF%BC%9AHTML%20%E6%B8%B2%E6%9F%93%E9%94%99%E8%AF%AF(This%20view%20has%20crashed)%20%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%20+%20MarkdownPad2.5%20%E6%B3%A8%E5%86%8C%E7%A0%81/"/>
+    <id>http://biscuit09.github.io/2017/08/08/【转】MarkdownPad 2 在win10下出错：HTML 渲染错误(This view has crashed) 的解决办法 + MarkdownPad2.5 注册码/</id>
+    <published>2017-08-08T09:07:55.000Z</published>
+    <updated>2017-08-08T09:23:50.123Z</updated>
+    
+    <content type="html"><![CDATA[<p>自从大二下开学后没怎么写博客，好咸鱼啊，然后最近开始学凸包打算写写博客记录下，结果打开hexo发现，我从win8.1升了win10后，MarkdownPad2炸了。。。出现了下图<br><img src="/img/blogimg/【转】MarkdownPad 2 在win10下出错：HTML 渲染错误This view has crashed 的解决办法 + MarkdownPad2.5 注册码/img1.png" alt="img1"><br><a id="more"></a><br>然后百度了一波看到CSDN上有一个博客写了解决方法，博客地址是<br><a href="http://blog.csdn.net/wyc12306/article/details/51504906" target="_blank" rel="external">浪潮之巅</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;自从大二下开学后没怎么写博客，好咸鱼啊，然后最近开始学凸包打算写写博客记录下，结果打开hexo发现，我从win8.1升了win10后，MarkdownPad2炸了。。。出现了下图&lt;br&gt;&lt;img src=&quot;/img/blogimg/【转】MarkdownPad 2 在win10下出错：HTML 渲染错误This view has crashed 的解决办法 + MarkdownPad2.5 注册码/img1.png&quot; alt=&quot;img1&quot;&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="MarkdownPad2" scheme="http://biscuit09.github.io/tags/MarkdownPad2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>codecademy-Learn-HTML&amp;CSS-Part-1-学习记录-3-CSS颜色设置</title>
+    <link href="http://biscuit09.github.io/2017/02/27/codecademy-Learn-HTML&amp;CSS-Part-1-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95-4-CSS%E5%AD%97%E4%BD%93%E8%AE%BE%E7%BD%AE/"/>
+    <id>http://biscuit09.github.io/2017/02/27/codecademy-Learn-HTML&amp;CSS-Part-1-学习记录-4-CSS字体设置/</id>
+    <published>2017-02-27T13:29:07.000Z</published>
+    <updated>2017-02-27T13:29:07.226Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>codecademy-Learn-HTML&amp;CSS-Part-1-学习记录-3-CSS颜色设置</title>
