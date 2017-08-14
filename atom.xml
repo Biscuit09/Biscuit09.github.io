@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://biscuit09.github.io/"/>
-  <updated>2017-08-08T09:23:50.123Z</updated>
+  <updated>2017-08-14T07:57:41.970Z</updated>
   <id>http://biscuit09.github.io/</id>
   
   <author>
@@ -14,6 +14,41 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>计算几何知识积累</title>
+    <link href="http://biscuit09.github.io/2017/08/14/%E8%AE%A1%E7%AE%97%E5%87%A0%E4%BD%95%E7%9F%A5%E8%AF%86%E7%A7%AF%E7%B4%AF/"/>
+    <id>http://biscuit09.github.io/2017/08/14/计算几何知识积累/</id>
+    <published>2017-08-14T07:00:31.000Z</published>
+    <updated>2017-08-14T07:57:41.970Z</updated>
+    
+    <content type="html"><![CDATA[<p>先记录下刚找的Markdown小知识 三个* or - or +可以输出一个分割线<br>例如</p>
+<hr>
+<p>还有Markdown的段缩进可以这样 </p>
+<p><pre><code>半方大的空白<code>&amp;ensp;</code>或<code>&amp;#8194;</code><br>全方大的空白<code>&amp;emsp;</code>或<code>&amp;#8195;</code><br>不断行的空白格<code>&amp;nbsp;</code>或<code>&amp;#160;</code><br></code></pre><br>换行可以用<code>&lt;/br&gt;</code><br>代码块用<code>&lt;/pre&gt;&lt;c/ode&gt;</code><br><a id="more"></a></p>
+<hr>
+<p>进入正题<br>在看<a href="http://blog.csdn.net/bone_ace/article/details/46239187" target="_blank" rel="external">凸包问题的五种解法</a>这篇文章时，学到这么个小知识<br><br><img src="/img/blogimg/计算几何知识积累/点和直线关系.jpg" alt="img1"><br><br>上式有两个用途<br></p>
+<p><ol></ol></p>
+<p><li>判断一个点p3是在直线p1p2的左边还是右边（坐标：p1(x1,y1)，p2(x2,y2)，p3(x3,y3)）,当上式结果为正时，p3在直线p1p2的左侧；当结果为负时，p3在直线p1p2的右边。</li></p>
+<p><li> 距离某直线最远的点,设有一个点P3和直线P1P2（坐标：p1(x1,y1)，p2(x2,y2)，p3(x3,y3))对上式的结果取绝对值，绝对值越大，则距离直线越远。</li><br><br>&gt;<br>可这么证明:<br><br>设三角形三点为A(x1,y1,1)、B(x2,y2)、C(x3,y3)<br><br>则面积=1/2|AB|<em>|AC|</em>sin(角A)=1/2<em>|向量(AB)×向量(AC)|<br><br>而向量(AB)=(x2-x1)i+(y2-y1)j<br><br> 向量(AC)=(x3-x1)i+(y3-y1)j<br><br>其中i,j,k是xyz坐标系的三个方向的单位矢量（当然,向量AB、AC均没有z向的分量）<br><br>然后按×乘的定义计算一下得：s=1/2 </em> | (x2-x1)(y3-y1)-(y2-y1)(x3-x1) |<br><br>化简为：s=1/2 * | x2y3-x2y1-x1y3-y2x3+y2x1+y1x3 |<br><br>然后因为AB固定的，所以当C的距离越远，三角形面积越大，则x2y3-x2y1-x1y3-y2x3+y2x1+y1x3的值越大<br><br>然后这个也可以通过x2y3-x2y1-x1y3-y2x3+y2x1+y1x3的正负判定点C和直线AB的位置关系</p>
+<hr>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;先记录下刚找的Markdown小知识 三个* or - or +可以输出一个分割线&lt;br&gt;例如&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;还有Markdown的段缩进可以这样 &lt;/p&gt;
+&lt;p&gt;&lt;pre&gt;&lt;code&gt;半方大的空白&lt;code&gt;&amp;amp;ensp;&lt;/code&gt;或&lt;code&gt;&amp;amp;#8194;&lt;/code&gt;&lt;br&gt;全方大的空白&lt;code&gt;&amp;amp;emsp;&lt;/code&gt;或&lt;code&gt;&amp;amp;#8195;&lt;/code&gt;&lt;br&gt;不断行的空白格&lt;code&gt;&amp;amp;nbsp;&lt;/code&gt;或&lt;code&gt;&amp;amp;#160;&lt;/code&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;换行可以用&lt;code&gt;&amp;lt;/br&amp;gt;&lt;/code&gt;&lt;br&gt;代码块用&lt;code&gt;&amp;lt;/pre&amp;gt;&amp;lt;c/ode&amp;gt;&lt;/code&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="计算几何" scheme="http://biscuit09.github.io/tags/%E8%AE%A1%E7%AE%97%E5%87%A0%E4%BD%95/"/>
+    
+      <category term="Markdown小知识" scheme="http://biscuit09.github.io/tags/Markdown%E5%B0%8F%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
   
   <entry>
     <title>【转】MarkdownPad 2 在win10下出错：HTML 渲染错误(This view has crashed) 的解决办法 + MarkdownPad2.5 注册码</title>
